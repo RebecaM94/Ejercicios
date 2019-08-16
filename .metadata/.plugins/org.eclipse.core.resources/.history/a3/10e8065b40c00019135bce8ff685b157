@@ -1,0 +1,56 @@
+/*
+ * FilterStateMachine.c
+ *
+ *  Created on: Aug 16, 2019
+ *      Author: rmend
+ */
+
+#include "hal_data.h"
+#include "FilterStateMachine.h"
+
+int state = 0;
+bool Trigger = 0;
+int Cnt = 0;
+
+void FilterStateMachine(ioport_level_t btnstate)
+{
+    switch (state)
+    {
+        case 0:
+            Trigger = 0; //acciones internas
+            Cnt = 0;
+            if (btnstate == HIGH) //condiciones de salida
+            {
+               state = 1;
+            }
+            break;
+
+        case 1:
+            Trigger = 0; //acciones internas
+            Cnt++;
+            if (btnstate == LOW) // condiciones de salida
+            {
+                state = 0;
+            }
+            if (Cnt > 10)
+            {
+                 state = 2;
+                 Cnt = 0;
+            }
+
+            break;
+
+        case 2:
+            Trigger = 1;
+            state = 3;
+            break;
+
+        case 3:
+            Trigger = 0;
+            if (btnstate == LOW) // condiciones de salida
+            {
+                state = 0;
+            }
+            break;
+    }
+}

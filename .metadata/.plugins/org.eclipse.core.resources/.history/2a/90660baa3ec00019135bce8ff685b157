@@ -1,0 +1,26 @@
+/*
+ * FilterStateMachine.c
+ *
+ *  Created on: Aug 16, 2019
+ *      Author: rmend
+ */
+#include "FilterStateMachine.h"
+
+int state = 0;
+bool TriggerCnt = 0;
+
+void FilterStateMachine()
+{
+    switch (state)
+    {
+        case 0:
+            TriggerCnt = 0;
+            state = 1;
+            break;
+
+        case 1:
+            TriggerCnt = 0;
+
+            break;
+    }
+}

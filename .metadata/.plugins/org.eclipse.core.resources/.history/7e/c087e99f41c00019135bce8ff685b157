@@ -1,0 +1,13 @@
+/*
+ * FilterStateMachine.h
+ *
+ *  Created on: Aug 16, 2019
+ *      Author: rmend
+ */
+
+#ifndef FILTERSTATEMACHINE_H_
+#define FILTERSTATEMACHINE_H_
+#define LOW 1
+#define HIGH 0
+
+#endif /* FILTERSTATEMACHINE_H_ */
