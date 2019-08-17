@@ -2680,6 +2680,7 @@ Discarded input sections
  .group         0x00000000        0x8 ./src/hal_entry.o
  .group         0x00000000        0x8 ./src/hal_entry.o
  .group         0x00000000        0x8 ./src/hal_entry.o
+ .group         0x00000000        0x8 ./src/hal_entry.o
  .text          0x00000000        0x0 ./src/hal_entry.o
  .data          0x00000000        0x0 ./src/hal_entry.o
  .bss           0x00000000        0x0 ./src/hal_entry.o
@@ -2732,6 +2733,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./src/hal_entry.o
  .debug_macro   0x00000000       0x16 ./src/hal_entry.o
  .debug_macro   0x00000000       0x10 ./src/hal_entry.o
+ .debug_macro   0x00000000       0x16 ./src/hal_entry.o
  .group         0x00000000        0x8 ./src/mainTick.o
  .group         0x00000000        0x8 ./src/mainTick.o
  .group         0x00000000        0x8 ./src/mainTick.o
@@ -4985,7 +4987,7 @@ OUTPUT(Perifericos.elf elf32-littlearm)
  .debug_ranges  0x00001c00       0x10 ./src/hal_entry.o
  .debug_ranges  0x00001c10       0x18 ./src/mainTick.o
 
-.debug_macro    0x00000000     0x7cd5
+.debug_macro    0x00000000     0x7cde
  .debug_macro   0x00000000      0x2e6 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
  .debug_macro   0x000002e6      0x874 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
  .debug_macro   0x00000b5a       0x22 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
@@ -5075,11 +5077,11 @@ OUTPUT(Perifericos.elf elf32-littlearm)
  .debug_macro   0x000070a0      0x319 ./src/synergy_gen/hal_data.o
  .debug_macro   0x000073b9       0x11 ./src/synergy_gen/main.o
  .debug_macro   0x000073ca      0x2a5 ./src/synergy_gen/pin_data.o
- .debug_macro   0x0000766f      0x32e ./src/hal_entry.o
- .debug_macro   0x0000799d       0x16 ./src/hal_entry.o
- .debug_macro   0x000079b3      0x322 ./src/mainTick.o
+ .debug_macro   0x0000766f      0x337 ./src/hal_entry.o
+ .debug_macro   0x000079a6       0x16 ./src/hal_entry.o
+ .debug_macro   0x000079bc      0x322 ./src/mainTick.o
 
-.debug_line     0x00000000    0x12cf5
+.debug_line     0x00000000    0x12d0d
  .debug_line    0x00000000      0xf01 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
  .debug_line    0x00000f01     0x1046 ./synergy/ssp/src/driver/r_gpt/r_gpt.o
  .debug_line    0x00001f47      0xbce ./synergy/ssp/src/driver/r_fmi/r_fmi.o
@@ -5107,10 +5109,10 @@ OUTPUT(Perifericos.elf elf32-littlearm)
  .debug_line    0x00010484      0x9f8 ./src/synergy_gen/hal_data.o
  .debug_line    0x00010e7c       0x49 ./src/synergy_gen/main.o
  .debug_line    0x00010ec5      0x95b ./src/synergy_gen/pin_data.o
- .debug_line    0x00011820      0xa6e ./src/hal_entry.o
- .debug_line    0x0001228e      0xa67 ./src/mainTick.o
+ .debug_line    0x00011820      0xa86 ./src/hal_entry.o
+ .debug_line    0x000122a6      0xa67 ./src/mainTick.o
 
-.debug_str      0x00000000    0x1e3eb
+.debug_str      0x00000000    0x1e402
  .debug_str     0x00000000    0x15d9c ./synergy/ssp/src/driver/r_ioport/r_ioport.o
                               0x16113 (size before relaxing)
  .debug_str     0x00015d9c     0x248f ./synergy/ssp/src/driver/r_gpt/r_gpt.o
@@ -5165,9 +5167,9 @@ OUTPUT(Perifericos.elf elf32-littlearm)
                                0x24f1 (size before relaxing)
  .debug_str     0x0001e0e1      0x1fc ./src/synergy_gen/pin_data.o
                                0xf420 (size before relaxing)
- .debug_str     0x0001e2dd       0xdf ./src/hal_entry.o
-                              0x12f32 (size before relaxing)
- .debug_str     0x0001e3bc       0x2f ./src/mainTick.o
+ .debug_str     0x0001e2dd       0xf6 ./src/hal_entry.o
+                              0x12f49 (size before relaxing)
+ .debug_str     0x0001e3d3       0x2f ./src/mainTick.o
                               0x11a6a (size before relaxing)
 
 .debug_frame    0x00000000     0x1728

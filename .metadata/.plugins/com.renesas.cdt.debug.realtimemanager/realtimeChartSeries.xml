@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<RealtimeChartView>
+<RealtimeChartView.ChartSeries>
+	<ChartSeries.SeriesID>adcData</ChartSeries.SeriesID>
+	<ChartSeries.SeriesName>adcData</ChartSeries.SeriesName>
+	<ChartSeries.SeriesExpression>adcData</ChartSeries.SeriesExpression>
+	<ChartSeries.SeriesColor>{0,0,0,255}</ChartSeries.SeriesColor>
+	<ChartSeries.SeriesStyle>solid</ChartSeries.SeriesStyle>
+	<ChartSeries.AntiAlias>0</ChartSeries.AntiAlias>
+	<ChartSeries.StepEnable>false</ChartSeries.StepEnable>
+	<ChartSeries.AreaEnable>false</ChartSeries.AreaEnable>
+</RealtimeChartView.ChartSeries>
+<RealtimeChartView.ChartSeries>
+	<ChartSeries.SeriesID>adcDataFiltered</ChartSeries.SeriesID>
+	<ChartSeries.SeriesName>adcDataFiltered</ChartSeries.SeriesName>
+	<ChartSeries.SeriesExpression>adcDataFiltered</ChartSeries.SeriesExpression>
+	<ChartSeries.SeriesColor>{255,0,0,255}</ChartSeries.SeriesColor>
+	<ChartSeries.SeriesStyle>solid</ChartSeries.SeriesStyle>
+	<ChartSeries.AntiAlias>0</ChartSeries.AntiAlias>
+	<ChartSeries.StepEnable>false</ChartSeries.StepEnable>
+	<ChartSeries.AreaEnable>false</ChartSeries.AreaEnable>
+</RealtimeChartView.ChartSeries>
+<RealtimeChartView.ChartSeries>
+	<ChartSeries.SeriesID>adcDataFiltered</ChartSeries.SeriesID>
+	<ChartSeries.SeriesName>adcDataFiltered</ChartSeries.SeriesName>
+	<ChartSeries.SeriesExpression>adcDataFiltered</ChartSeries.SeriesExpression>
+	<ChartSeries.SeriesColor>{0,0,0,255}</ChartSeries.SeriesColor>
+	<ChartSeries.SeriesStyle>solid</ChartSeries.SeriesStyle>
+	<ChartSeries.AntiAlias>0</ChartSeries.AntiAlias>
+	<ChartSeries.StepEnable>false</ChartSeries.StepEnable>
+	<ChartSeries.AreaEnable>false</ChartSeries.AreaEnable>
+</RealtimeChartView.ChartSeries>
+<RealtimeChartView.ChartSeries>
+	<ChartSeries.SeriesID>adcDataFiltered</ChartSeries.SeriesID>
+	<ChartSeries.SeriesName>adcDataFiltered</ChartSeries.SeriesName>
+	<ChartSeries.SeriesExpression>adcDataFiltered</ChartSeries.SeriesExpression>
+	<ChartSeries.SeriesColor>{255,0,0,255}</ChartSeries.SeriesColor>
+	<ChartSeries.SeriesStyle>solid</ChartSeries.SeriesStyle>
+	<ChartSeries.AntiAlias>0</ChartSeries.AntiAlias>
+	<ChartSeries.StepEnable>false</ChartSeries.StepEnable>
+	<ChartSeries.AreaEnable>false</ChartSeries.AreaEnable>
+</RealtimeChartView.ChartSeries>
+<RealtimeChartView.ChartSeries>
+	<ChartSeries.SeriesID>adcData</ChartSeries.SeriesID>
+	<ChartSeries.SeriesName>adcData</ChartSeries.SeriesName>
+	<ChartSeries.SeriesExpression>adcData</ChartSeries.SeriesExpression>
+	<ChartSeries.SeriesColor>{0,0,0,255}</ChartSeries.SeriesColor>
+	<ChartSeries.SeriesStyle>solid</ChartSeries.SeriesStyle>
+	<ChartSeries.AntiAlias>0</ChartSeries.AntiAlias>
+	<ChartSeries.StepEnable>false</ChartSeries.StepEnable>
+	<ChartSeries.AreaEnable>false</ChartSeries.AreaEnable>
+</RealtimeChartView.ChartSeries>
+</RealtimeChartView>

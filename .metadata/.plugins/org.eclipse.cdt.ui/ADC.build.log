@@ -1,30 +1,11 @@
-14:10:58 **** Incremental Build of configuration Debug for project ADC ****
+15:19:54 **** Incremental Build of configuration Debug for project ADC ****
 make -j8 all 
-'Building file: ../src/hal_entry.c'
-'Invoking: Cross ARM C Compiler'
-C:\Renesas\Synergy\e2studio_v6.2.0_ssp_v1.4.0\eclipse\/../\Utilities\\/isdebuild arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g3 -D_RENESAS_SYNERGY_ -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy_cfg\ssp_cfg\bsp" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy_cfg\ssp_cfg\driver" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy\ssp\inc" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy\ssp\inc\bsp" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy\ssp\inc\driver\api" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\synergy\ssp\inc\driver\instances" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\src" -I"C:\Users\rmend\Desktop\Diplomado SW\4.2 Perifericos\ADC\src\synergy_gen" -std=c99 -MMD -MP -MF"src/hal_entry.d" -MT"src/hal_entry.o" -c -o "src/hal_entry.o" -x c "../src/hal_entry.c"
-../src/hal_entry.c: In function 'hal_entry':
-../src/hal_entry.c:54:62: warning: passing argument 3 of 'g_adc0.p_api->read' from incompatible pointer type
-         g_adc0.p_api->read(g_adc0.p_ctrl, ADC_REG_CHANNEL_0, &adcData);
-                                                              ^
-../src/hal_entry.c:54:62: note: expected 'uint16_t * const' but argument is of type 'int *'
-'Finished building: ../src/hal_entry.c'
-' '
-'Building target: ADC.elf'
-'Invoking: Cross ARM C Linker'
-arm-none-eabi-gcc @"ADC.elf.in"
-'Finished building target: ADC.elf'
-' '
-'Invoking: Cross ARM GNU Create Flash Image'
-arm-none-eabi-objcopy -O srec "ADC.elf"  "ADC.srec"
 'Invoking: Cross ARM GNU Print Size'
 arm-none-eabi-size --format=berkeley "ADC.elf"
    text	   data	    bss	    dec	    hex	filename
   19572	    120	   8456	  28148	   6df4	ADC.elf
-'Finished building: ADC.srec'
 'Finished building: ADC.siz'
 ' '
-' '
 
-14:11:02 Build Finished. 0 errors, 2 warnings. (took 4s.24ms)
+15:19:55 Build Finished. 0 errors, 0 warnings. (took 1s.207ms)
 

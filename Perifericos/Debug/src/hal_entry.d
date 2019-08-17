@@ -55,7 +55,7 @@ src/hal_entry.o: ../src/hal_entry.c \
  C:\Users\rmend\Desktop\Diplomado\ SW\4.2\ Perifericos\Perifericos\synergy\ssp\inc\driver\api/r_elc_api.h \
  C:\Users\rmend\Desktop\Diplomado\ SW\4.2\ Perifericos\Perifericos\synergy\ssp\inc\driver\instances/r_gpt.h \
  C:\Users\rmend\Desktop\Diplomado\ SW\4.2\ Perifericos\Perifericos\synergy\ssp\inc\driver\api/r_timer_api.h \
- ../src/mainTick.h
+ ../src/mainTick.h ../src/FilterStateMachine.h
 
 C:\Users\rmend\Desktop\Diplomado\ SW\4.2\ Perifericos\Perifericos\src\synergy_gen/hal_data.h:
 
@@ -170,3 +170,5 @@ C:\Users\rmend\Desktop\Diplomado\ SW\4.2\ Perifericos\Perifericos\synergy\ssp\in
 C:\Users\rmend\Desktop\Diplomado\ SW\4.2\ Perifericos\Perifericos\synergy\ssp\inc\driver\api/r_timer_api.h:
 
 ../src/mainTick.h:
+
+../src/FilterStateMachine.h:
